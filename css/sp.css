@@ -1,0 +1,562 @@
+@charset "utf-8";
+
+body {
+  font-size: 12px;
+  position: relative;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+}
+
+.outer-block {
+  min-width: 320px;
+}
+
+.inner-block {
+  padding: 0;
+  width: auto;
+}
+
+#wrapper {
+  min-width: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+input[type="submit"] {
+  -webkit-text-size-adjust: 100%;
+}
+
+input, select, textarea {
+  font-size: 16px !important;
+}
+
+.pc {
+  display: none !important;
+}
+.pc-ib {
+  display: none !important;
+}
+
+.sp {
+  display: block !important;
+}
+.sp-ib {
+  display: inline-block !important;
+}
+
+
+/*------------------------------------------------------------------------------
+  main
+------------------------------------------------------------------------------*/
+/*---------- common ----------*/
+.contents-block .inner-block {
+  padding: 40px 20px;
+}
+
+.c-ttl01 {
+  font-size: 24px;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+}
+
+.c-ttl01:after {
+  width: 40px;
+  height: 3px;
+}
+
+.c-ttl02 {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+/*---------- btn-block ----------*/
+.btn-block .inner-block {
+  padding: 20px 20px;
+}
+
+.btn-block .btn a {
+  height: 80px;
+  padding-left: 20px;
+  width: 320px;
+}
+
+.btn-block .btn .img {
+  margin-right: 15px;
+}
+
+.btn-block .btn .img img {
+  width: 33px;
+}
+
+.btn-block .btn .txt01 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.btn-block .btn .txt02 {
+  font-size: 23px;
+}
+
+/*---------- header ----------*/
+.header .inner-block {
+  height: 50px;
+  padding: 0 10px;
+}
+
+.header .logo {
+  width: 80px;
+  width: 25%;
+}
+
+.header .list {
+  width: 75%;
+}
+
+.header .list .link {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+
+.header .list .link:before {
+  border-width: 2.5px 0 2.5px 6px;
+}
+
+.header .btn .img img {
+  width: 17px;
+}
+
+.header .list .btn a {
+  width: 160px;
+  height: 38px;
+  font-size: 11px;
+}
+
+.header .list .btn .txt {
+  margin-left: 5px;
+}
+
+/*---------- mv ----------*/
+.mv-block .block01 {
+  background: url(../img/sp/mv_bg.jpg) no-repeat center / cover;
+  padding: 50px 10px 25px;
+  height: auto;
+}
+
+.mv-block .txt01 {
+  padding-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.mv-block .img01 {
+  width: 85px;
+  bottom: -35px;
+  right: -9px;
+}
+
+.mv-block .block02 .txt-box {
+  font-size: 15px;
+  line-height: 1.4;
+  padding: 10px;
+}
+
+/*---------- cont02 ----------*/
+.cont02 .list {
+  margin-top: 30px;
+  display: block;
+}
+
+.cont02 .list .box {
+  width: auto;
+  padding: 20px 20px 10px;
+}
+
+.cont02 .list .box02 {
+  margin-top: 20px;
+}
+
+.cont02 .list .txt01 {
+  font-size: 16px;
+  top: -14px;
+  left: 20px;
+}
+
+.cont02 .block + .block {
+  margin-top: 30px;
+}
+
+.cont02 .img01 .txt {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/*---------- cont03 ----------*/
+.cont03 .inner-block {
+  width: auto;
+}
+
+.cont03 .list .box .img-box .img {
+  width: 40px;
+  margin: 0 auto 3px;
+}
+
+.cont03 .list .box .img-box .name {
+  font-size: 12px;
+}
+
+.cont03 .list .box .balloon {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+
+.cont03 .list .box02 {
+  margin-top: 20px;
+}
+
+.cont03 .list .box01 .img-box {
+  margin-right: 20px;
+}
+
+.cont03 .list .box02 .img-box {
+  margin-left: 20px;
+  width: 110px;
+}
+
+.cont03 .des {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 15px
+}
+
+/*---------- cont04 ----------*/
+.cont04 .img {
+  width: 300px;
+  margin: auto;
+  position: relative;
+  left: -20px;
+}
+
+/*---------- cont06 ----------*/
+.cont06 .inner-block {
+  width: auto;
+}
+
+.cont06 .list .box01 {
+  margin-right: 0;
+}
+
+.cont06 .list .box01, .cont06 .list .box02 {
+  width: 100%;
+}
+
+.cont06 .list .box02 {
+  margin-top: 5px;
+}
+
+.cont06 .list .box {
+  height: 50px;
+  font-size: 16px;
+}
+
+.cont06 .list .box03 {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.cont06 .des {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.cont07 .block .img {
+  margin-bottom: 0;
+}
+
+/*---------- cont07 ----------*/
+.cont07 .subttl {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cont07 .block01 .des {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.cont07 .block + .block {
+  margin-top: 30px;
+}
+
+.cont07 .block02 .des {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/*---------- cont09 ----------*/
+.cont09 .box {
+  padding: 30px 30px 80px;
+  font-size: 16px;
+}
+
+.cont09 .box .img {
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  margin: auto;
+  left: 0;
+}
+
+/*---------- footer ----------*/
+.footer .block01 .inner-block {
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+
+.footer .block01 .txt {
+  order: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.footer .block01 .logo {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer .block01 .logo img {
+  width: 120px;
+}
+
+.footer .block02 .inner-block {
+  font-size: 10px;
+}
+
+.shintitle{
+  font-size:1em;
+}
+.subtitletext {
+    font-size: 0.8em;
+    position: absolute;
+    left: 19px;
+    padding-top: 0px
+}
+.shintitle3 {
+    font-size: 1.4em;
+  }
+  .blocktitle2-baseline {
+  background-color: rgb(255, 210, 74);
+  width: 100%;
+  height: 7px;
+  position: relative;
+  top: -10px;
+}
+.blocktitle-2 img {
+    margin-left: 0px;
+}
+.shintitle2 {
+    font-size: 1.5em;
+    font-family: "Noto Sans JP";
+}
+.shintitle3 {
+    font-size: 1.4em;
+    font-family: "Noto Sans JP";
+    color: #2a90d0;
+    position: relative;
+    z-index: 10;
+}
+.shintitle-png img{
+  width:80%
+}
+.blocktitle {
+    padding:10px 10px;
+}
+.mv-block .block01{
+  padding:0 0
+}
+
+.denwa1-color {
+    font-size: 10px;
+  }
+
+    .denwa1 {
+        left: 2%;
+        top: 27%;
+        font-size: 10px;
+    }
+    .denwa2 {
+    font-family: "Hiragino Sans";
+    position: absolute;
+    left: 29%;
+    top: 36%;
+    font-size: 9px;
+}
+.homon1{
+  top: 23%;
+    font-size: 12px;
+}
+.homon2{
+  top: 28%;
+    font-size: 10px;
+}
+.contents01-03 {
+    padding-left: 0px;
+  }
+  .yasukunaru {
+      font-size: 14px;
+    }
+  .color50 {
+      font-size: 17px;
+  }
+  .hikaku-left{
+    margin:auto;
+  }
+  .nazeyasui-color {
+    font-size: 16px;
+    border-bottom: solid 2px red;
+  }
+.sp_br{
+  display:block;
+}
+.joho{
+  font-size: 10px;
+}
+.nazeyasui {
+    padding-top: 10px;
+    font-size: 12px;
+}
+.nazeyasui-color2 {
+    border-bottom: solid 2px rgb(255, 210, 74);
+}
+.hikakutitle img {
+    width: 25px;
+}
+.hikaku-tasya {
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.pc-png{
+  display:none;
+}
+.sp-png{
+  display:block;
+  margin:0 auto;
+}
+.sobatitle {
+    font-size: 20px;
+}
+.hyoback {
+    font-size: 14px;
+}
+.month {
+    font-size: 14px;
+    padding: 4px;
+}
+.iroiro {
+    font-size: 11px;
+}
+.nedan {
+    font-size: 10px;
+}
+.border-title {
+    /* border: solid 2px black; */
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    width: 200px;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: -28px;
+    /* left: 24%; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.flex-naiyo {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+.border-title2 {
+    /* border: solid 2px black; */
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    width: 200px;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: -40px;
+    /* left: 24%; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.flextitle {
+    /* text-align: center; */
+    background-color: #2a90d0;
+    font-size: 12px;
+    font-weight: bold;
+    /* margin: 0 auto; */
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    padding: 0 80px;
+    border-radius: 10px;
+}
+.flexborder {
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    /* margin: 20px; */
+    margin: 10px auto;
+}
+.flexborders {
+    padding: 40px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+.flexborder2 {
+    width: 100%;
+  }
+  .flextitle2 {
+    font-size: 18px;
+  }
+  .flexpp {
+    padding: 10px;
+    font-size: 12px;
+}
+/*------------------------------------------------------------------------------
+  clearfix
+------------------------------------------------------------------------------*/
+/*:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
