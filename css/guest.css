@@ -402,6 +402,7 @@ z-index:10;
   left:90px;
   font-family: "Hiragino Sans";
   color:white;
+  font-weight: bold;
 
 }
 .subtitletext-color{
@@ -425,6 +426,7 @@ align-items: center;
 .contents01-01{
   width:90%;
   position:relative;
+  font-weight: bold;
 }
 .denwa1{
   font-family: "Hiragino Sans";
@@ -432,7 +434,7 @@ align-items: center;
   left: 2%;
   top: 32%;
   font-size: 36px;
-
+font-weight: bold;
 }
 .denwa2{
   font-family: "Hiragino Sans";
